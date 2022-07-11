@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(236, 226, 200);
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px;
+}
+.btn {
+    
+    padding: 6px;
+    width: 120px;
+    color: white;
+    background-color: deeppink;
+}
+.begins {
+    margin: 8px;
+}
+.times {
+    text-align: center;
+    background-color: rgb(243, 186, 168);
+    padding: 8px;
+    width: 120px;
+}
+.question {
+    margin: 50px;
+}
+.scores {
+    background-color: beige;
+    text-align: center;
+    margin: 20px 0 0 8px;
+    border-style: double;
+    padding: 12px;
+    width: 150px;
+}
+.done {
+    display: none;
+}
+#ans1, #ans2, #ans3, #ans4 {
+    padding: 8px;
+    margin: 8px;
+    border-style: dashed;
+    width: 800px;
+}

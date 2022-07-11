@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizanator</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <!-- preloader -->
+    <h3 class="times">Time:<span id="time"></span></h3>
+    <div id='begin' class="begins">
+        <h2>Quizanator!</h2>
+        <h4>Ready: 5 questions.</br>Set: Wrong answers deduct time.</br>GO!: Don't forget to initial your score. Good Luck!</h4>
+        <button class="btn" id="btnA">Press START</button> 
+    </div>
+    <!-- load questions -->
+    <div class="question" id="questionHtml"></div>
+    <!-- load end of game -->
+    <div class="done">
+        <h2>Congratulations!</h2>
+        <p class="complete"></p>
+        <form>
+            <input type="text" id="name" placeholder="Enter your initial">
+            <label for="initials"></label>
+            <button class="btn" id="btnScore">Submit</button>
+        </form>
+    </div>
+    <!-- load scores -->
+    <div class="scores">    
+        <h2 id=>Scores</h2>
+        <h4 id="highScoreList"></h4>
+    </div>
+    <!-- scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
