@@ -1,4 +1,5 @@
 # Quizanator
+https://salvadorbanuelos424.github.io/Quizanator/
 
 ![A note app that saves to local server](./assets/image/quizanator.jpg)
 
@@ -23,7 +24,7 @@ Open to all contributions
 Feel free to reach out GitHub or email if you have any questions
 
 ## GitHub URL
-
+https://github.com/SalvadorBanuelos424/Quizanator
 
 ## Email
 * SBanuelos1234@gmail.com
